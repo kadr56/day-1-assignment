@@ -47,8 +47,15 @@ select {
     margin-top: 15px;
 }
 
+.name {
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: 100%; */
+    justify-content: stretch;
+}
+
 .first-name, .last-name{
-    width: 150px;
+
 }
 
 .column-2 {
@@ -65,4 +72,8 @@ select {
     color: #fff;
     border-bottom: 0.2px solid #fff;
     width: 100%;
+}
+
+.column-2 ::placeholder {
+    color: #fff;
 }
