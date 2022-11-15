@@ -38,7 +38,7 @@ input {
   width: 100%;
 }
 
-select {
+.column-1 select {
   width: 100%;
   margin-top: 30px;
   border: 0;
@@ -53,7 +53,8 @@ select {
 }
 
 .first-name,
-.zip-code {
+.zip-code,
+.code {
   margin-right: 30px;
 }
 
@@ -76,10 +77,34 @@ select {
 .column-2 select {
   background-color: rgb(58, 58, 193);
   color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 20px;
+  border: 0;
+  border-bottom: 0.2px solid #fff;
 }
 
 .column-2 ::placeholder {
   color: #fff;
+}
+
+#place,
+#country,
+#position {
+  padding-bottom: 10px;
+}
+
+.terms-condition {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+
+.checkbox {
+  padding-right: 30px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 20px;
 }

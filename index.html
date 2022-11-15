@@ -8,7 +8,7 @@
     <title>Assignment</title>
   </head>
   <body>
-    <form id="my-form" action="result.html">
+    <form id="my-form" action="./register-success.html">
       <div class="column-container">
         <div class="column-1">
           <h2>General Information</h2>
@@ -30,7 +30,7 @@
           <input type="email" name="email" placeholder="Email" />
           <input type="date" name="birthdate" />
           <input type="text" name="company" placeholder="Company" />
-          <select name="" id="">
+          <select name="position" id="position">
             <option value="">Position</option>
             <option value="">HR</option>
             <option value="">IT</option>
@@ -51,12 +51,44 @@
               name="zip-code"
               placeholder="Zip Code"
             />
-            <select name="" id="">
+            <select name="place" id="place">
               <option value="">Place</option>
               <option value="">HR</option>
               <option value="">IT</option>
             </select>
           </div>
+          <select name="country" id="country">
+            <option value="">Country</option>
+            <option value="">Mongolia</option>
+            <option value="">Non-Mongolian</option>
+            <option value="">Alien</option>
+          </select>
+
+          <div class="one-row">
+            <input class="code" type="text" name="code" placeholder="Code" />
+            <input
+              class="phone-number"
+              type="number"
+              name="phone-number"
+              placeholder="Phone Number"
+            />
+          </div>
+
+          <div class="terms-condition">
+            <div class="checkbox"><input type="checkbox" /></div>
+            <div>
+              I do accept the
+              <a
+                href="terms-and-condition.html"
+                target="_blank"
+                style="color: #fff"
+                >Terms and Conditions</a
+              >
+              of your site.
+            </div>
+          </div>
+
+          <button type="submit">Register Badge</button>
         </div>
       </div>
     </form>
