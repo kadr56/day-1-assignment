@@ -1,79 +1,85 @@
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 body {
-    max-width: 1000px;
-    margin: 40px auto;
-    background-color: rgba(137, 176, 223);
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: rgba(137, 176, 223);
 }
 
-
 .column-container {
-    display: flex;
+  display: flex;
 }
 
 .column-1 {
-    background-color: #fff;
-    flex: 50%;
-    padding: 30px 50px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    justify-content: center;
+  background-color: #fff;
+  flex: 50%;
+  padding: 30px 50px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  justify-content: center;
 }
 
 .column-1 h2 {
-    color: rgb(38, 84, 157);;
+  color: rgb(38, 84, 157);
 }
 
 .column-1 input {
-    border-bottom: 0.2px solid rgb(128, 127, 131);
+  border-bottom: 0.2px solid rgb(128, 127, 131);
 }
 
 input {
-    
-    margin: 10px 10px;
-    border: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
+  margin-top: 10px;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
 }
 
 select {
-    width: 315px;
-    margin-top: 15px;
+  width: 100%;
+  margin-top: 30px;
+  border: 0;
+  border-bottom: 0.2px solid rgb(128, 127, 131);
 }
 
-.name {
-    display: flex;
-    flex-wrap: nowrap;
-    /* width: 100%; */
-    justify-content: stretch;
+.one-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.first-name, .last-name{
-
+.first-name,
+.zip-code {
+  margin-right: 30px;
 }
 
 .column-2 {
-    background-color: rgb(58, 58, 193);
-    flex: 50%;
-    padding: 30px;
-    color: #fff;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+  background-color: rgb(58, 58, 193);
+  flex: 50%;
+  padding: 30px;
+  color: #fff;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.column-2  input {
-    background-color: rgb(58, 58, 193);
-    color: #fff;
-    border-bottom: 0.2px solid #fff;
-    width: 100%;
+.column-2 input {
+  background-color: rgb(58, 58, 193);
+  color: #fff;
+  border-bottom: 0.2px solid #fff;
+  width: 100%;
+}
+
+.column-2 select {
+  background-color: rgb(58, 58, 193);
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .column-2 ::placeholder {
-    color: #fff;
+  color: #fff;
 }
